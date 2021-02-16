@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const connection = () => {
   mongoose
     .connect(
-      "mongodb+srv://jdlight:tHtCWxb04vFDY1xZ@cluster0.u2hem.mongodb.net/test?retryWrites=true&w=majority",
+      "mongodb+srv://jdlight23234234:t23453HtCWxb0544vFD535Y1xZ@cluster0.u2hem.mongodb.net/test?retryWrites=true&w=majority",
       {
         useUnifiedTopology: true,
         useFindAndModify: false,
