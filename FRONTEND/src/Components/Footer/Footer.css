@@ -1,0 +1,100 @@
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 1rem;
+  }
+  .div1 {
+    background-color: #1f1e1e;
+    display: flex;
+    padding: 1rem 1.3rem;
+    justify-content: space-between;
+  }
+  .footer p {
+    color: #ada9a9;
+    font-family: "Playfair Display", sans-serif;
+  }
+  .footer h2 {
+    font-family: "Raleway", sans-serif;
+    margin: 0.2rem 0;
+  }
+  .aboutcontent {
+    margin-top: 2rem;
+  }
+  .aboutcontent p {
+    width: 30rem;
+    font-size: 0.9rem;
+  }
+  .Name {
+    margin: 1rem 0;
+    float: right;
+  }
+  .social {
+    margin-top: 2rem;
+  }
+  .social div {
+    display: flex;
+    align-items: center;
+  }
+  .circleback {
+    width: 40px;
+    height: 40px;
+    border-radius: 2rem;
+    align-items: center;
+    padding-left: 3px;
+  }
+  .circleback i {
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+  }
+  .social p {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+  #facebook {
+    background-color: rgb(44, 44, 165);
+  }
+  #insta {
+    background-color: rgb(189, 102, 117);
+  }
+  #twitter {
+    background-color: rgb(101, 181, 231);
+  }
+  .twitter,
+  .fb,
+  .insta {
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .condetails {
+    margin-top: 2rem;
+  }
+  .condetails div {
+    display: flex;
+    align-items: center;
+  }
+  .condetails i {
+    padding: 0.5rem 1rem;
+  }
+  .fa-mobile {
+    font-size: 1.5rem;
+  }
+  .Copyrightsection {
+    text-align: center;
+    padding: 1rem 0 0 0;
+    color: #ada9a9;
+    font-family: "Raleway", sans-serif;
+    font-size: 0.9rem;
+  }
+  .Copyrightsection div {
+    margin: 0.7rem 0;
+  }
+  .Copyrightsection a {
+    color: #ada9a9;
+    text-decoration: none;
+    margin: 0 0.5rem;
+  }
+  @media only screen and (max-width: 600px) {
+    .aboutcontent p {
+        width: 20rem;
+    }
+  }

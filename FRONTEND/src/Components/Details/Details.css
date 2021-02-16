@@ -1,0 +1,91 @@
+.DImage img {
+  width: 100%;
+}
+.qtydetails input {
+  width: 5rem;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  border: none;
+  border-bottom: 2px #e3e654 solid;
+}
+.qtydetails button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.subnav {
+  height: 20px;
+  padding: 0.5rem 0;
+}
+.strip {
+  height: 100%;
+  width: 100%;
+}
+.CButton {
+  border: none;
+  background: none;
+  background-color: #e4e6546e;
+  transition: 0.5s ease;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  outline: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.CButton:focus {
+  background-color: #e3e654;
+  color: black;
+  font-weight: 900;
+  outline: none;
+}
+.relatedc {
+  font-family: "Playfair Display", sans-serif;
+  padding: 1rem;
+}
+.relatedc div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+}
+.relatedc h6 {
+  font-weight: 900;
+}
+.underline {
+  height: 2px;
+  margin-top: 2px;
+  background-color: #e3e654;
+}
+.dvcol {
+  border: 1px #e4e6546e solid;
+}
+.Call button {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 20rem;
+  padding: 1rem 5.5rem;
+  background: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  border: none;
+  background-color: #e3e654;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+}
+.Call button:hover {
+  background-color: #f9fc48bd;
+}
+.Call button:active {
+  background-color: #e3e654;
+}
+.Call i {
+  font-size: 2rem;
+}
+.Call h2 {
+  color: black;
+  font-family: "Raleway", sans-serif;
+  margin-left: 1rem;
+}

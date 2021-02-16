@@ -1,0 +1,28 @@
+a{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+a:hover{
+    color: #9ee24594;
+    text-decoration: none;
+}
+.active {
+    color: #9ee245de;
+    font-weight: 900;
+}
+/* .logo img{
+    width: 30%;
+} */
+.Font-Raleway{
+    font-family: "Raleway",sans-serif;
+}
+.dropdown-menu{
+    background-color: #343a40;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+.dropdown-item:hover{
+    background-color: #343a40;
+}
+.navbar-toggler:focus{
+    outline: none;
+}

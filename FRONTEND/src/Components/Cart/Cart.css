@@ -1,0 +1,70 @@
+.CImage img {
+  width: 100%;
+}
+.CImage {
+  width: 200px;
+}
+.Con {
+  border: 1px solid #dadada;
+}
+.CID h5 {
+  font-weight: 900;
+}
+.CID h6 {
+  font-weight: 900;
+  color: #7e7e7e;
+}
+.cqty button {
+  font-size: 20px;
+  padding: 0 10px;
+  font-weight: 900;
+}
+.delete button {
+  background: none;
+  border: none;
+  outline: none;
+}
+.Cqtydetails h6 {
+  width: 2rem;
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 900;
+  border: none;
+}
+.Cqtydetails button {
+  background: none;
+  border: none;
+}
+.refresh {
+  background: none;
+  border: none;
+  font-weight: 900;
+}
+textarea {
+  resize: none;
+}
+.form {
+  background-color: #e9e9e9;
+}
+.Payb {
+  background: none;
+  border: none;
+  color: black;
+}
+.Payb:focus {
+  background-color: #e3e654;
+  color: black;
+  outline: none;
+}
+.Payb:hover,
+.Payb:active {
+  background: none;
+  color: black;
+}
+.finalButtons button {
+  width: 200px;
+}
+@media only screen and (max-width: 575px) {
+  .CImage {
+    width: 100%;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  outline: none;
+}
+.LoginCon,
+.CarrerCon {
+  background-image: url("../Images/Login.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.SubCon {
+  background-color: white;
+  height: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.CarrerCon .SubCon {
+  height: auto;
+  max-width: 700px;
+}
+.SignCon {
+  background-image: url("../Images/Login.jpg");
+  background-size: cover;
+  align-items: center;
+}
+.SignSubCon {
+  background-color: white;
+  height: 600px;
+  max-width: 500px;
+  border-radius: 10px;
+}
+.SubCon h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  border-bottom: 2px #e3e654 solid;
+  padding: 0 0 1rem 0;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+}
+.credentials input,
+.credentials textarea,
+.selectDrop {
+  width: 100%;
+  border: none;
+  border: 1px #e3e654 solid;
+  border-radius: 2px;
+  height: 3rem;
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: #6d6d6d;
+  font-family: "Raleway", sans-serif;
+}
+.credentials textarea {
+  height: 7rem;
+  resize: none;
+}
+.box {
+  position: relative;
+}
+.credentials span {
+  font-family: "Raleway", sans-serif;
+  color: #6d6d6d;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 5%;
+  padding: 4px;
+  pointer-events: none;
+  transition: 0.3s ease;
+  font-size: 1.3rem;
+}
+.credentials input:focus + span,
+.credentials input:valid + span,
+.credentials textarea:focus + span,
+.credentials textarea:valid + span {
+  top: 10%;
+  font-size: 1rem;
+  background-color: white;
+  color: #d4d650;
+}
+input.valid {
+  border: 1px solid #6ce654;
+}
+input.invalid {
+  border: 1px solid #ff0000;
+}
+.credentials button {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  border-radius: 3px;
+  padding: 0.6rem 0;
+  background-color: #e3e654;
+  cursor: pointer;
+}
+.reglink {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+.reglink .Redirect {
+  color: #545ee6;
+  margin-left: 5px;
+}
